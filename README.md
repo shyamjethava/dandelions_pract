@@ -1,16 +1,19 @@
-# dandelions_practical
+# Flutter CRUD Application
 
-A new Flutter project.
+Flutter SDK : 3.24.0
 
-## Getting Started
+A Flutter application that implements CRUD (Create, Read, Update, Delete) functionalities with a local database.
+Users can manage entries with fields like ID, Name, and Description.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Create**: Add new entries to the local database.
+- **Read**: Display the list of entries in a structured format.
+- **Update**: Edit existing entries.
+- **Delete**: Remove entries from the local database.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technology Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- SQLite (local database solution)
